@@ -2,7 +2,6 @@
 title: php_parser
 toc: true
 date: 2021-06-11 16:18:10
-thumbnail: /images/2021/岁月的童话2.jpg
 tags:
   - php
   - blog
