@@ -163,6 +163,11 @@ categories:
 
 段表
 
+LOAD 1，[A] |〈D〉;
+STORE 1，[B] |〈C〉;
+
+
+
 
 
 
