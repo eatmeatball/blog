@@ -35,7 +35,7 @@ function getBlankTemplate(blogName) {
         title: blogName,
         toc: true,
         date: createTime,
-        thumbnail: '/images/2021/岁月的童话2.jpg',
+        // thumbnail: '/images/2021/岁月的童话2.jpg',
         tags: ["other", "blog"],
         categories: ["other"],
 
@@ -55,13 +55,13 @@ inquirer
         {
             name: 'switchGroup',
             type: 'string',
-            message: 'please input group(default:other)',
-            default: 'other',
+            message: 'please input group(default:diary_blog)',
+            default: 'diary_blog',
         }, {
             name: 'postName',
             type: 'string',
-            message: 'please input PostName',
-            default: 'other',
+            message: 'please input PostName(default YYYY-MM-DD)',
+            default: moment().valueOf(),
         }
     ]
     )
@@ -86,6 +86,7 @@ inquirer
             console.log(chalk.green("组目录创建成功"));
         }
 
+        postName = moment().format('YYYY_MM_DD') + postName
         fs.appendFileSync(POST_PATH + groupName + '/' + postName + '.md', content);
 
         console.log("写入成功");
