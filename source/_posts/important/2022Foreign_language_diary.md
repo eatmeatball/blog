@@ -1,7 +1,7 @@
 ---
 title: Foreign language diary
 toc: true
-date: 2021-12-24 10:58:17
+date: 2021-12-25 10:58:17
 thumbnail: /images/2021/1357.pic.jpg
 tags:
   - other
