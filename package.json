@@ -13,6 +13,8 @@
     "version": "5.4.0"
   },
   "dependencies": {
+    "ansi-regex": ">=5.0.1",
+    "prismjs": ">=1.25.0",
     "bulma-stylus": "0.8.0",
     "force": "^0.0.3",
     "hexo": "^5.0.0",
