@@ -38,18 +38,6 @@ Today I see some suggestion in Quora where is a web-station about Question-Answe
 > The article is flashback
 
 
-#  2021/10/07 Thursday
-#  2021/10/06 Wednesday
-#  2021/10/05 Tuesday
-#  2021/10/04 Monday
-#  2021/10/04 Monday
-#  2021/10/03 Sunday
-#  2021/10/02 Saturday
-#  2021/10/01 Friday
-#  2021/09/30 Thursday
-#  2021/09/29 Wednesday
-#  2021/09/28 Tuesday
-#  2021/09/27 Monday
 #  2021/09/26 Sunday
 
 2008 :  
