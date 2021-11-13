@@ -14,7 +14,9 @@ categories:
 
 - [go环境设置](#go环境设置)
 	- [go get 代理设置](#go-get-代理设置)
+	- [go mod](#go-mod)
 	- [go env](#go-env)
+	- [关于下载库和下载软件](#关于下载库和下载软件)
 - [基础](#基础)
 - [包推荐](#包推荐)
 - [练习](#练习)
@@ -46,20 +48,60 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+## go mod 
+```
+go mod download  //下载依赖包
+go mod edit  //工具或脚本编辑go.mod
+go mod graph  //打印模块依赖图
+go mod init  //在当前目录初始化mod
+go mod tidy  //拉取缺少的模块，移除不用的模块。
+go mod vendor  //将依赖复制到vendor下
+go mod verify  //验证依赖是否正确
+go mod why  //解释为什么需要依赖
+go list -m -json all  //依赖详情
+```
+go mod 练习
+```
+首先
+mkdir go_t && cd go_t
+go mod init app
+go get -u github.com/codesenberg/bombardier // 这是一个http压测客户端，
+cat go.sum // go.sum 安装了没有用的东西，因为打算全局安装，但是并不想要引入当前项目
+go mod tidy // 无效 因为当前目录没有impact 任何go的包
+// 创建一个go文件
+go mod tidy  
+cat go.sum
+// 不会影响全局
+go install  github.com/codesenberg/bombardier@latest 
+
+```
+
 ## go env
 
 go 1.13提供了 go env -w命令来写环境变量
 ```
 go env -w XXX="XXX"
 go env -u XXX
+
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
 
 win: `用户\AppData\Roaming\go\env`
 linux: ` /root/.config/go/env`
 
+## 关于下载库和下载软件
+
+> 以下基于 go 1.17 
 
 
+如果你要下载一个由`go`编写的的可执行程序，你应该执行 `go install xxxx`。这会在 `GO_PATH/bin/` 下安装可执行文件。
+如果你要引用第三方库进行代码开发，你可以使用 `go get -d ` （仅下载代码不进行编译）。
+
+可以认为目前是 go 1.17 还是一个过渡时期，未来 `go get`应该不再进行编译操作，`-d` 会演变为默认参数。而 `go install`则进化为下载可执行软件的专用方法。
+
+目前 go 1.17 用 go get 还是可以下载+编译的。未来应该是不能这么操作了
 
 # 基础
 
