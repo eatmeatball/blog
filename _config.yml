@@ -101,7 +101,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 #landscape is a default theme
-theme: amazing
+# theme: amazing
+theme: volantis
 # theme: study
 
 # Deployment
