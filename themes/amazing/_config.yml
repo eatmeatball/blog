@@ -213,51 +213,55 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Select show index
         index: false
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: profile
-        # Author name
-        author: nil
-        # Author title
-        author_title: nil is null , null is nil 
-        # Author's current location
-        location: 天朝
-        # URL or path to the avatar image
-        avatar:  /images/theme/avatar2.jpg
-        # Whether show the rounded avatar image
-        avatar_rounded: true
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: 'https://github.com/hzjoyous'
-        # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/hzjoyous'
-            # Weibo:
-            #     icon: fab fa-weibo
-            #     url: 'https://weibo.com/removeif'
-            Email:
-                icon: fa fa-envelope
-                url: 'hzjmessage@outlook.com'
-            # Next:
-            #     icon: fab fa-dribbble
-            #     url: 'https://removeif.github.io/remove.io'
-            # RSS:
-            #     icon: fas fa-rss
-            #     url: /atom.xml
-        has_hitokoto: true
+
+    # thh:start
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: profile
+    #     # Author name
+    #     author: nil
+    #     # Author title
+    #     author_title: nil is null , null is nil 
+    #     # Author's current location
+    #     location: 天朝
+    #     # URL or path to the avatar image
+    #     avatar:  /images/theme/avatar2.jpg
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: true
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: 'https://github.com/hzjoyous'
+    #     # Links to be shown on the bottom of the profile widget
+    #     social_links:
+    #         Github:
+    #             icon: fab fa-github
+    #             url: 'https://github.com/hzjoyous'
+    #         # Weibo:
+    #         #     icon: fab fa-weibo
+    #         #     url: 'https://weibo.com/removeif'
+    #         Email:
+    #             icon: fa fa-envelope
+    #             url: 'hzjmessage@outlook.com'
+    #         # Next:
+    #         #     icon: fab fa-dribbble
+    #         #     url: 'https://removeif.github.io/remove.io'
+    #         # RSS:
+    #         #     icon: fas fa-rss
+    #         #     url: /atom.xml
+    #     has_hitokoto: true
+    # thh:end 
+    
     # Recommendation links widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: links
         # Names and URLs of the sites
         links:
@@ -357,7 +361,7 @@ plugins:
     katex: false
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: false
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: false
