@@ -95,3 +95,9 @@ networks:
 
 
 # Docker容器后台运行,就必须有一个前台进程。主线程结束，容器会退出。
+
+# 直接运行docker命令，路径为work_dir
+
+```
+docker exec -it php-80  php -version
+```
