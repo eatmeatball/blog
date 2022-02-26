@@ -34,7 +34,7 @@
     "inferno": "^7.4.8",
     "inferno-create-element": "^7.4.8",
     "moment": "^2.25.3",
-    "prismjs": ">=1.25.0",
+    "prismjs": ">=1.27.0",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
