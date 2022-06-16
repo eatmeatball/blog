@@ -4,7 +4,7 @@
 
 # Site
 title: 吱~
-subtitle: 吱吱吱，吱吱，吱吱吱吱吱，吱吱~
+subtitle: 坚持能力有大小与贡献须尽力相统一。<br>坚持物质贡献与精神贡献相统一。<br>坚持完善自身与贡献社会相统一。<br>坚持动机和效果相统一。
 description: 
 keywords:
 author: hzjoyous
@@ -45,6 +45,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
+  exclude_languages:
+    - mermaid
   enable: true
   line_number: true
   auto_detect: false
@@ -99,10 +101,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
+# theme: landscape
+theme: next
 #landscape is a default theme
-theme: amazing
-# theme: volantis
+# theme: amazing
+# theme: kaze
 
 
 # theme: study
