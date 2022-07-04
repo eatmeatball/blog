@@ -6,6 +6,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/201909192216
 tags:
   - other
   - blog
+  - go
 categories:
   - HowToUse
 ---
