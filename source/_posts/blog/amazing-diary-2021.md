@@ -215,4 +215,4 @@ picgo感觉很不稳定，与其在picgo的基础基于github上做一个图库�
 今天上午整理了一下之前的博客，因为都是断断续续写的，所以比较零散。有的也比较重复文章太多导致有些时候查找起来不是很方便，有些分类已经随着各种零散记录的增加变得不再合。所以做了一些合并，整理成了 **how to use** 这个分类，当然以后其他的记录可能会变成篇少字多方便查阅。
 
 y~~
-![how_to_use](https://cdn.jsdelivr.net/gh/hzjoyous/pic-respository/image/20210128/1611838098704.png)
+![how_to_use](https://cdn.jsdelivr.net/gh/thh9/pic-respository/image/20210128/1611838098704.png)

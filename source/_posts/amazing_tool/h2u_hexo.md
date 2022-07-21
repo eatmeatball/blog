@@ -23,7 +23,7 @@ categories:
 
 周末两天用 symfony 写了个小的点评系统，接入到 hexo 搭建的博客上，下面放上 git 地址
 
-`https://github.com/hzjoyous/api.nonodi.com`
+`https://github.com/thh9/api.nonodi.com`
 前端代码 --baseUri要替换成自己的--
 ```html
 

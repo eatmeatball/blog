@@ -7,13 +7,13 @@ title: 吱~
 subtitle: 坚持能力有大小与贡献须尽力相统一。<br>坚持物质贡献与精神贡献相统一。<br>坚持完善自身与贡献社会相统一。<br>坚持动机和效果相统一。
 description: 
 keywords:
-author: hzjoyous
+author: thh
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hzjoyous.github.io
+url: https://thh9.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -114,8 +114,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: git@github.com:hzjoyous/hzjoyous.github.io.git
+  # repo: git@github.com:thh9/thh9.github.io.git
   repo: 
-    github: https://github.com/hzjoyous/hzjoyous.github.io.git
-    gitee: https://gitee.com/hzjoyous/hzjoyous.git
+    github: https://github.com/thh9/thh9.github.io.git
   branch: master
