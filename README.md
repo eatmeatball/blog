@@ -1,5 +1,9 @@
 # Blog Source
 
 
-![https://www.jetbrains.com/community/opensource/#support](./jb_beam.png)
-[https://www.jetbrains.com/community/opensource/#support](https://www.jetbrains.com/community/opensource/#support)
+
+# thanks
+
+<div align=center>
+<a href="https://www.jetbrains.com/community/opensource/#support"><img src="./jb_beam.png" width="20%"></a>
+</div>
