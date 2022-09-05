@@ -4,7 +4,7 @@ date: '2021-06-17 06:27:06'
 tags:
     - php
 categories:
-    - other
+    - php
 ---
 
 # php 层次式性能分析器

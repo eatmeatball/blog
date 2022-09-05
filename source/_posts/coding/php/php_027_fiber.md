@@ -4,7 +4,7 @@ date: '2022-09-05T20:40:00+08:00'
 tags:
     - php
 categories:
-    - other
+    - php
 
 ---
 

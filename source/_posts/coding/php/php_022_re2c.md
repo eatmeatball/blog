@@ -6,7 +6,7 @@ tags:
     - php
     - c
 categories:
-    - other
+    - php
 
 ---
 

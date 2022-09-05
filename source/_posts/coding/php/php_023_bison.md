@@ -5,8 +5,7 @@ tags:
     - bison
     - php
 categories:
-    - other
-
+    - php
 ---
 
 
