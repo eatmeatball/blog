@@ -26,6 +26,55 @@ cd target
 java -jar xxxx.jar
 ```
 
+# mvn 打包 相关
+
+```
+
+mvn clean package -T 1C -Dmaven.test.skip=true -Dmaven.compile.fork=true
+
+要部署您的项目进行生产，它总是建议使用 “mvn clean package“, 以确保始终获得最新的部署。
+增加跳过测试代码的编译命令: -Dmaven.test.skip=true；
+增加编译 -Dmaven.compile.fork=true 参数，用以指明使用多线程进行编译；
+如果用的 Maven 是3.×以上版本，可以增加 -T 1C 参数，表示使用每个 CPU 核心跑一个工程；
+输出目录为 target/{pom.artifactId}{pom.version}.jar
+
+
+
+java -javaagent:~/skywalking-agent.jar  -Xms2g -Xmx2g -Xmn768m  -server -Xss512K -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=768m -XX:MaxDirectMemorySize=1024M -Dfile.encoding=UTF-8 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+ParallelRefProcEnabled -XX:+PrintReferenceGC 
+
+
+-javaagent:<jarpath>[=<选项>] 加载 Java 编程语言代理, 请参阅 java.lang.instrument
+-D<名称>=<值>     设置系统属性
+-X            输出非标准选项的帮助
+-server	  选择 "server" VM 默认 VM 是 server, 因为您是在服务器类计算机上运行
+-Xmixed           混合模式执行 (默认)
+-Xint             仅解释模式执行
+-Xbootclasspath:<用 : 分隔的目录和 zip/jar 文件>                  设置搜索路径以引导类和资源
+-Xbootclasspath/a:<用 : 分隔的目录和 zip/jar 文件>                  附加在引导类路径末尾
+-Xbootclasspath/p:<用 : 分隔的目录和 zip/jar 文件>                  置于引导类路径之前
+-Xdiag            显示附加诊断消息
+-Xnoclassgc       禁用类垃圾收集
+-Xincgc           启用增量垃圾收集
+-Xloggc:<file>    将 GC 状态记录在文件中 (带时间戳)
+-Xbatch           禁用后台编译
+-Xms<size>        设置初始 Java 堆大小
+-Xmx<size>        设置最大 Java 堆大小
+-Xss<size>        设置 Java 线程堆栈大小
+-Xprof            输出 cpu 配置文件数据
+-Xfuture          启用最严格的检查, 预期将来的默认值
+-Xrs              减少 Java/VM 对操作系统信号的使用 (请参阅文档)
+-Xcheck:jni       对 JNI 函数执行其他检查
+-Xshare:off       不尝试使用共享类数据
+-Xshare:auto      在可能的情况下使用共享类数据 (默认)
+-Xshare:on        要求使用共享类数据, 否则将失败。
+-XshowSettings    显示所有设置并继续
+-XshowSettings:all                  显示所有设置并继续
+-XshowSettings:vm 显示所有与 vm 相关的设置并继续
+-XshowSettings:properties                  显示所有属性设置并继续
+-XshowSettings:locale                  显示所有与区域设置相关的设置并继续
+```
+
+
 # run step
 
 [Java之初始化语句执行顺序](https://blog.csdn.net/csdnLeraner/article/details/101077657)
