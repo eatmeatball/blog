@@ -114,7 +114,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: git@github.com:thh9/thh9.github.io.git
+  # repo: git@github.com:eatmeatball/eatmeatball.github.io.git
   repo: 
-    github: https://github.com/thh9/thh9.github.io.git
+    github: https://github.com/eatmeatball/eatmeatball.github.io.git
   branch: master
