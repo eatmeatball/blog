@@ -116,5 +116,5 @@ deploy:
   type: git
   # repo: git@github.com:eatmeatball/eatmeatball.github.io.git
   repo: 
-    github: https://github.com/eatmeatball/eatmeatball.github.io.git
+    github: git@github.com:eatmeatball/eatmeatball.github.io.git
   branch: master
