@@ -4,7 +4,7 @@
 
 # Site
 title: 马路边边
-subtitle: 坚持能力有大小与贡献须尽力相统一。<br>坚持物质贡献与精神贡献相统一。<br>坚持完善自身与贡献社会相统一。<br>坚持动机和效果相统一。
+subtitle: 
 description: 
 keywords:
 author: thh
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://thh9.github.io
+url: https://eatmeatball.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
