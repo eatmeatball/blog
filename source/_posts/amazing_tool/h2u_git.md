@@ -166,7 +166,7 @@ git config --global credential.helper store
 # 同时push 多个地址
 
 ```
-git remote set-url --add origin https://github.com/thh9/SimpleHexoBlog.git
+git remote set-url --add origin https://github.com/eatmeatball/SimpleHexoBlog.git
 
 ```
 # dns 设置

@@ -64,7 +64,7 @@ a:微软开发者账号注册不能用微信支付宝银行卡，，，有点费
 
 *本文比较糙，如作参考，切勿钻牛角尖音响效率*
 
-[simpleM's GitHub](https://github.com/thh9/SimpleM)
+[simpleM's GitHub](https://github.com/eatmeatball/SimpleM)
 
 
 uwp 里其实和 web网页开发类似， xaml、cs文件与html、css、js等算是也有对应关系，同时uwp中grid的布局方式我使用起来比较顺手，所以起步还是比较方便的
@@ -124,7 +124,7 @@ public sealed partial class MainPage : Page
 
 *本文比较糙，如作参考，切勿钻牛角尖音响效率*
 
-[simpleM'sGitHub](https://github.com/thh9/SimpleM)
+[simpleM'sGitHub](https://github.com/eatmeatball/SimpleM)
 
 uwp 视频播放器元素类 `MediaPlayerElement`
 
@@ -172,7 +172,7 @@ uwp 视频播放器元素类 `MediaPlayerElement`
  
 *本文比较糙，如作参考，切勿钻牛角尖音响效率*
 
-[simpleM's GitHub](https://github.com/thh9/SimpleM)
+[simpleM's GitHub](https://github.com/eatmeatball/SimpleM)
 
 ```xaml
 <Grid Grid.Row="1" >

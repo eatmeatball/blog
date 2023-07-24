@@ -190,7 +190,7 @@ go 模块的开发并不复杂，但是其为了兼容老版本，所采取的�
 mkdir hello-go-mod
 cd hello-go-mod
 git init 
-go mod init github.com/thh9/hello-go-mod
+go mod init github.com/eatmeatball/hello-go-mod
 mkdir hello
 cd hello
 echo "package hello
@@ -209,7 +209,7 @@ git push
 当推送完成之后你就可以使用
 
 ```
-go get -u  github.com/thh9/hello-go-mod
+go get -u  github.com/eatmeatball/hello-go-mod
 ```
 
 在其他项目拉取该项目了。默认为`v0.0.0`。  
@@ -220,8 +220,8 @@ go get -u  github.com/thh9/hello-go-mod
 
 拉取代码的时候会出现
 ```
-go get: github.com/thh9/hello@v2.0.1: reading https://goproxy.cn/github.com/thh9/hello/@v/v2.0.1.info: 404 Not Found
-        server response: not found: github.com/thh9/hello@v2.0.1: invalid version: module contains a go.mod file, so major version must be compatible: should be v0 or v1, not v2
+go get: github.com/eatmeatball/hello@v2.0.1: reading https://goproxy.cn/github.com/eatmeatball/hello/@v/v2.0.1.info: 404 Not Found
+        server response: not found: github.com/eatmeatball/hello@v2.0.1: invalid version: module contains a go.mod file, so major version must be compatible: should be v0 or v1, not v2
 ```
 
 是不是满脑子充满了问号？  
@@ -232,14 +232,14 @@ go get: github.com/thh9/hello@v2.0.1: reading https://goproxy.cn/github.com/thh9
 
 修改前
 ```go.mod
-module github.com/thh9/hello-go-mod
+module github.com/eatmeatball/hello-go-mod
 
 go 1.16
 ```
 
 修改后
 ```go.mod
-module github.com/thh9/hello-go-mod/v3
+module github.com/eatmeatball/hello-go-mod/v3
 
 go 1.16
 ```

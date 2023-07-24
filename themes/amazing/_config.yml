@@ -145,11 +145,11 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: thh9         # (required) GitHub user name
+    owner: eatmeatball         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
     client_id: 0f9c9cf415e0cff92319     # (required) OAuth application client id
     client_secret: dbb2be3127b4be2117db6d1e761d7d89d90896a2 # (required) OAuth application client secret
-    admin: ['thh9']
+    admin: ['eatmeatball']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
@@ -237,12 +237,12 @@ widgets:
     #     # Email address for the Gravatar
     #     gravatar: 
     #     # URL or path for the follow button
-    #     follow_link: 'https://github.com/thh9'
+    #     follow_link: 'https://github.com/eatmeatball'
     #     # Links to be shown on the bottom of the profile widget
     #     social_links:
     #         Github:
     #             icon: fab fa-github
-    #             url: 'https://github.com/thh9'
+    #             url: 'https://github.com/eatmeatball'
     #         # Weibo:
     #         #     icon: fab fa-weibo
     #         #     url: 'https://weibo.com/removeif'
@@ -267,7 +267,7 @@ widgets:
         links:
             Hexo: 'https://hexo.io'
             Bulma: 'https://bulma.io'
-            thh9.gitee.io: https://thh9.gitee.io/
+            eatmeatball.gitee.io: https://eatmeatball.gitee.io/
             LX: 'https://blog.csdn.net/qq_15539917'
             小二的CodingLife: 'https://clarence888.github.io/'
     # Latest comment widget configurations
