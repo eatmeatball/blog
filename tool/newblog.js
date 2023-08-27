@@ -5,7 +5,8 @@ const YAML = require('yaml')
 
 const moment = require('moment');
 var inquirer = require('inquirer');
-var fs = require("fs")
+var fs = require("fs");
+const { group } = require('console');
 var exec = require('child_process').exec;
 
 function execute(cmd) {
@@ -73,6 +74,10 @@ inquirer
         console.log(chalk.blue(groupName));
 
         var content = getBlankTemplate(postName, groupName);
+        if(groupName == "diary_blog"){
+            groupName = groupName+"/"+moment().year();
+        }
+        console.log(groupName)
         var haveDir = false
         try {
             var stat = fs.statSync(POST_PATH + groupName);
