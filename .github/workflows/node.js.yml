@@ -40,5 +40,6 @@ jobs:
         git config --global user.name "eatmeatball"
     - name: Deploy
       run: |
-        hexo clean
-        hexo deploy
+        npm run clean
+        npm run build
+        npm run deploy
